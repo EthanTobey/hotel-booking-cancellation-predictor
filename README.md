@@ -6,7 +6,7 @@ The final model achieved a cross-validated ROC-AUC score of **0.95**, demonstrat
 
 ## 🧠 Model Overview
 
-A **CatBoostClassifier** was trained using numerical and categorical features extracted from the dataset. Key features of the pipeline include:
+A **XGBoos Classifier** was trained using numerical and categorical features extracted from the dataset. Key features of the pipeline include:
 
 - **Bayesian hyperparameter optimization** using `skopt` and `BayesSearchCV`
 - **K-Fold cross-validation** (Stratified, 5 folds)
@@ -18,7 +18,7 @@ A **CatBoostClassifier** was trained using numerical and categorical features ex
 
 - Python 3
 - Pandas, NumPy
-- CatBoost
+- XGBoost
 - scikit-learn
 - scikit-optimize (`skopt`)
 - ROC-AUC evaluation
